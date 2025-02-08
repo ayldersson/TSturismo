@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #008000;
+}
+
+/* Sobre Mim */
+.foto-guia {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Serviços */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #008000;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Destinos */
+.destinos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destino {
+    background: white;
+    border: 2px solid #008000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+}
+
+.imagens-destino {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-destino img {
+    width: 48%;
+    border-radius: 5px;
+}
+
+/* Contato */
+.social-icon {
+    font-size: 30px; /* Tamanho do ícone */
+    margin-top: 10px;
+    transition: color 0.3s ease; /* Animação de transição ao passar o mouse */
+}
+
+.social-icon.instagram {
+    color: #C13584; /* Cor roxa para o Instagram */
+}
+
+.social-icon.whatsapp {
+    color: #25D366; /* Cor verde para o WhatsApp */
+}
+
+.social-icon:hover {
+    opacity: 0.7; /* Efeito de opacidade ao passar o mouse */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
