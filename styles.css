@@ -13,6 +13,15 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    position: relative;
+ }
+
+/* Logomarca */
+.logo {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
 }
 
 /* Seções */
