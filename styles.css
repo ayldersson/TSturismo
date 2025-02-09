@@ -80,15 +80,15 @@ li {
 }
 
 .social-icon.instagram {
-    color: #C13584; /* Cor roxa para o Instagram */
+    color: #C13584;
 }
 
 .social-icon.whatsapp {
-    color: #25D366; /* Cor verde para o WhatsApp */
+    color: #25D366;
 }
 
 .social-icon:hover {
-    opacity: 0.7; /* Efeito de opacidade ao passar o mouse */
+    opacity: 0.7; /* Efeito de opacidade ao passar o mouse
 }
 
 a {
